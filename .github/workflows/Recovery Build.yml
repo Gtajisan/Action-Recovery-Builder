@@ -1,11 +1,11 @@
-name: Recovery Build
+name: Recovery Build by frn
 
 on:
   workflow_dispatch:
     inputs:
       MANIFEST_BRANCH:
-        type: choice
-        description: Manifest Branch
+        type: choice 
+        description: Manifest Branch wen 
         options:
         - 12.1
         - 11
@@ -16,7 +16,7 @@ on:
         required: true
         default: 12.1
       DEVICE_TREE_URL:
-        description: Device Tree URL
+        description: Device Tree URL 🫡
         required: true
         default: https://github.com/TeamWin/android_device_asus_I003D
       DEVICE_TREE_BRANCH:
